@@ -5,7 +5,7 @@ import java.awt.Graphics2D;
 
 public class Square extends Shape {
 
-	private Rectangle rect;  
+	private Rectangle rect;   // Reuse a Rectangle object to represent this square
 	
 	// constructor: set the centre X,Y coordinates, and the size (width/height)
 	// of the square

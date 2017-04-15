@@ -19,6 +19,7 @@ public class Triangle extends Shape {
 		this.createTriangle();
 	}		
 	
+	// update the position and/or size of the rectangle
 	public void updateShape(int centreX, int centreY, int size) {
 		this.centreX = centreX;
 		this.centreY = centreY;
