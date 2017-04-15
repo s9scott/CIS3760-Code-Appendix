@@ -11,9 +11,7 @@ public class Triangle extends Shape {
 	// Constructor: defines an equilateral triangle, centred at (centreX, centreY)
 	// and with side length of "size".
 	public Triangle (int centreX, int centreY, int size) {
-
 		super();
-
 		this.centreX = centreX;
 		this.centreY = centreY;
 		this.size = size;
@@ -22,7 +20,6 @@ public class Triangle extends Shape {
 	}		
 	
 	public void updateShape(int centreX, int centreY, int size) {
-
 		this.centreX = centreX;
 		this.centreY = centreY;
 		this.size = size;
@@ -30,6 +27,7 @@ public class Triangle extends Shape {
 		this.createTriangle();
 	}
 
+	// Generates an equilateral triangle, centred at (centreX, centreY) and side length "size".
 	private void createTriangle(){
 
 		this.nodeList.clear();
@@ -48,8 +46,6 @@ public class Triangle extends Shape {
 				this.lineList.add(new Line(node, this.nodeList.get(0)));
 			}
 		}
-		
 		this.updateLineList();
 	}
-	
 }
