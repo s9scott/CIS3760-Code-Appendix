@@ -42,14 +42,6 @@ public class Rectangle extends Shape {
 		this.nodeList.add(node3);
 		this.nodeList.add(node4);
 
-//		for (Node node : this.nodeList) {
-//			if (node.getId() != nodeList.size()){
-//				this.lineList.add(new Line(node, this.nodeList.get(node.getId())));
-//			} else { // Last node in list, needs to wrap to first node
-//				this.lineList.add(new Line(node, this.nodeList.get(0)));
-//			}
-//		}
-		
 		this.updateLineList();
 	}
 	

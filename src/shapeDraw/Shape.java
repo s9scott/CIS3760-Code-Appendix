@@ -9,6 +9,7 @@ public class Shape {
 	protected List<Node> nodeList;
 	protected List<Line> lineList;
 	
+	// Constructor: initialize the node and line lists
 	public Shape() {
 		
 		this.nodeList = new ArrayList<Node>();
